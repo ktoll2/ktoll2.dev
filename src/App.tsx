@@ -30,7 +30,7 @@ function App() {
             <div className='flex flex-row justify-center h-24 space-x-2 text-gray-800'>
               <a className='flex h-full hover:text-[rgb(0,119,181)]' href='https://www.linkedin.com/in/ktolleshaug/' target='_blank' rel='noreferrer' aria-label='Linkedin'><FontAwesomeIcon className='flex h-full' icon={faLinkedin}></FontAwesomeIcon></a>
               <a className='flex h-full hover:text-green-600' href='https://github.com/ktoll2' target='_blank' rel='noreferrer' aria-label='Github'><FontAwesomeIcon className='flex h-full' icon={faGithub} ></FontAwesomeIcon></a>
-              <a className='flex h-full hover:text-yellow-500' href='https://observatory.mozilla.org/analyze/ktoll.dev' target='_blank' rel='noreferrer' aria-label='Mozilla Observatory'><FontAwesomeIcon className='flex h-full' icon={faShieldHalved}></FontAwesomeIcon></a>
+              {/* <a className='flex h-full hover:text-yellow-500' href='https://observatory.mozilla.org/analyze/ktoll.dev' target='_blank' rel='noreferrer' aria-label='Mozilla Observatory'><FontAwesomeIcon className='flex h-full' icon={faShieldHalved}></FontAwesomeIcon></a> */}
             </div>
           </div>
           <div className='pt-2 text-white'>
