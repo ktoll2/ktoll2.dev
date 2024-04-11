@@ -5,7 +5,7 @@ import { faShieldHalved } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font-sans">
       <div className={`bg-no-repeat bg-cover bg-center h-screen w-screen bg-[linear-gradient(60deg,rgba(255,265,150,0.5),rgba(0,228,255,0.5)),url('../public/images/bg.jpg')]`}>
         <div className='flex flex-col absolute w-full h-full justify-center items-center'>
           <div className='flex flex-col bg-white w-full md:w-1/2 lg:w-1/4 rounded-3xl py-24'>
@@ -16,7 +16,7 @@ function App() {
               </div>
               <hr className='flex w-1/2'></hr>
             </div>
-            <div className='flex flex-col items-center font-sans'>
+            <div className='flex flex-col items-center'>
               <div className='flex text-5xl '>
                 <p> Kirk Tolleshaug</p>
               </div>
@@ -33,10 +33,11 @@ function App() {
               <a className='flex h-full hover:text-yellow-500' href='https://observatory.mozilla.org/analyze/ktoll.dev' target='_blank' rel='noreferrer' aria-label='Mozilla Observatory'><FontAwesomeIcon className='flex h-full' icon={faShieldHalved}></FontAwesomeIcon></a>
             </div>
           </div>
-          <p>&#169; Kirk Tolleshaug {new Date().getFullYear()}</p>
+          <div className='pt-2 text-white'>
+            <p>&#169; Kirk Tolleshaug {new Date().getFullYear()}</p>
+          </div>
         </div>
       </div>
-
     </div>
   );
 }

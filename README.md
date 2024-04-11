@@ -44,3 +44,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Deployment
+
+To deploy the site, first run `yarn build` locally to genereate the artifacts. These will be places in the `build` directory.
+
+Once the build step is complete, commit and push, gh-pages will automatically look in the `build` directory and serve the page.
