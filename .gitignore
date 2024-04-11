@@ -9,8 +9,7 @@
 /coverage
 
 # production
-# line commented so we push up the build files for GH-Pages
-#/build
+/build
 
 # misc
 .DS_Store
