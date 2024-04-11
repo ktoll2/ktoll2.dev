@@ -47,6 +47,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Deployment
 
-To deploy the site, first run `yarn build` locally to genereate the artifacts. These will be places in the `build` directory.
+To deploy the site, first run `yarn build` locally to genereate the artifacts. These will be places in the `docs` directory.
 
-Once the build step is complete, commit and push, gh-pages will automatically look in the `build` directory and serve the page.
+Once the build step is complete, commit and push, gh-pages will automatically look in the `docs` directory and serve the page.
