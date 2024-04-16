@@ -33,7 +33,7 @@ function App() {
           </div>
         </div>
         <div className='pt-2 text-white'>
-          <p>&#169; Kirk Tolleshaug {new Date().getFullYear()}</p>
+          <p className='text-shadow-border'>&#169; Kirk Tolleshaug {new Date().getFullYear()}</p>
         </div>
       </div>
     </div>
