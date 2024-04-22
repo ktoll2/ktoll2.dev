@@ -7,7 +7,7 @@ function App() {
   return (
     <div className={`App font-sans overflow-auto bg-no-repeat bg-cover bg-center h-screen w-screen bg-[linear-gradient(60deg,rgba(255,265,150,0.5),rgba(0,228,255,0.5)),url('../public/images/bg.jpg')]`}>
       <div className={`flex flex-col justify-center items-center m-8`}>
-        <div className='relative flex flex-col bg-white md:w-1/2 lg:w-1/4 rounded-3xl py-16'>
+        <div className='relative flex flex-col bg-white md:w-1/2 lg:w-1/4 rounded-3xl py-16 shadow-lg'>
           <div className='flex flex-row items-center justify-center pb-8' >
             <hr className='flex w-1/2'></hr>
             <div className='flex px-6'>
