@@ -30,7 +30,7 @@ function App() {
           <div className='flex flex-row justify-center h-12 md:h-20 space-x-2 text-gray-800'>
             <a className='flex h-full hover:text-[rgb(0,119,181)]' href='https://www.linkedin.com/in/ktolleshaug/' target='_blank' rel='noreferrer' aria-label='LinkedIn' title='Linkedin'><FontAwesomeIcon className='flex h-full' icon={faLinkedin}></FontAwesomeIcon></a>
             <a className='flex h-full hover:text-[rgb(144,84,228)]' href='https://github.com/ktoll2' target='_blank' rel='noreferrer' aria-label='Github' title='GitHub'><FontAwesomeIcon className='flex h-full' icon={faGithub} ></FontAwesomeIcon></a>
-            <a className='flex h-full hover:text-green-600' href='/KirkTolleshaugResume.pdf' target='_blank' rel='noreferrer' aria-label='Resume' title='Download Resume'><FontAwesomeIcon className='flex h-full' icon={faFileInvoice} ></FontAwesomeIcon></a>
+            <a className='flex h-full hover:text-green-600' href='/KirkTolleshaugResume.pdf' target='_blank' rel='noreferrer' aria-label='Resume' title='Download Resume' download><FontAwesomeIcon className='flex h-full' icon={faFileInvoice} ></FontAwesomeIcon></a>
             {/* <a className='flex h-full hover:text-yellow-500' href='https://observatory.mozilla.org/analyze/ktoll.dev' target='_blank' rel='noreferrer' aria-label='Mozilla Observatory'><FontAwesomeIcon className='flex h-full' icon={faShieldHalved}></FontAwesomeIcon></a> */}
           </div>
         </div>
